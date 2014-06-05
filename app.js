@@ -12,6 +12,10 @@ app.configure(function() {
 app.get('/', function(req, res){          // Обрабатываем запрос корневой страницы "/"
     res.render('index.html');
 });
+
+app.get('/index.html', function(req, res){          // Обрабатываем запрос корневой страницы "/"
+    res.render('index.html');
+});
 app.get('/portfolio', function(req, res){ // Обрабатываем запрос страницы "/portfolio"
     res.render('portfolio.html');
 });
