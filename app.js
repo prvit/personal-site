@@ -13,9 +13,7 @@ app.get('/', function(req, res){          // Обрабатываем запро
     res.render('index.html');
 });
 
-app.get('/index', function (req, res)
-{
-          // Обрабатываем запрос корневой страницы "/"
+app.get('/index', function (req, res){ // Обрабатываем запрос корневой страницы "/"
     res.render('index.html');
 });
 
